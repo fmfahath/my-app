@@ -13,4 +13,4 @@ export default function AnimatedStyleUpdateExample(props) {
       <Text>Hello fm</Text>
     </View>
   );
-} 
+}
