@@ -9,8 +9,8 @@ import { View, Button, Text } from "react-native";
 export default function AnimatedStyleUpdateExample(props) {
 
   return (
-    <View>
+    <View className='bg-red-300'>
       <Text>Hello fm</Text>
     </View>
   );
-}
+} 
