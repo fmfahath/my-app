@@ -2,9 +2,13 @@ import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { StatusBar } from 'expo-status-bar'
 import Animated, { FadeIn, FadeInDown, FadeInUp, FadeOut, FadeUp } from 'react-native-reanimated';
+import { useNavigation } from '@react-navigation/native';
 
 
 export default function LoginScreen() {
+
+    const navigation = useNavigation();
+
     return (
         <View className='bg-white h-full w-full'>
             <StatusBar style='light' />
@@ -17,7 +21,7 @@ export default function LoginScreen() {
             </View>
 
             {/* title & form */}
-            <View className='h-full w-full flex justify-around pt-40 pb-10'>
+            <View className='h-full w-full flex justify-around pt-48 pb-10'>
                 {/* title */}
                 <View className='flex items-center'>
                     <Animated.Text entering={FadeInUp.duration(1000).springify()} className='text-white font-bold tracking-wider text-5xl'>Login</Animated.Text>
@@ -38,7 +42,7 @@ export default function LoginScreen() {
                     </Animated.View>
                     <Animated.View entering={FadeInDown.delay(600).duration(1000).springify()} className='flex-row justify-center'>
                         <Text>Don't have an account? </Text>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => navigation.push('SignUp')}>
                             <Text className='text-sky-700 font-bold'>SignUp</Text>
                         </TouchableOpacity>
                     </Animated.View>

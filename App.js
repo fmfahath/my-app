@@ -15,7 +15,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Login' screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Login" component={LoginScreen} />
-        <Stack.Screen name="signUp" component={SignupScreen} />
+        <Stack.Screen name="SignUp" component={SignupScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
