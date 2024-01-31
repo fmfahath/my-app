@@ -10,7 +10,7 @@
   <br><br>
 
   <div>
-    <img src='https://github.com/fmfahath/testReadme/assets/95971934/1588ad5c-d74d-40d8-8027-4894e62661e3' height='550px' width='280px' />
+    <img src='https://github.com/fmfahath/my-app/assets/95971934/9147c904-bce2-4ff6-846c-6411a696c260' height='550px' width='280px' />
   </div>  
 </div>
 
@@ -21,6 +21,7 @@
 NativeWind - Tailwind CSS ---->> <a href='https://www.nativewind.dev/quick-starts/expo'>Link</a><br>
 @react-navigation/stack ---->> <a href='https://www.npmjs.com/package/@react-navigation/stack'>Link</a><br>
 React Native Reanimated ---->> <a href='https://docs.swmansion.com/react-native-reanimated/'>Link</a><br>
+
 
 
   
