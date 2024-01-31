@@ -21,7 +21,7 @@
 NativeWind - Tailwind CSS ---->> <a href='https://www.nativewind.dev/quick-starts/expo'>Link</a><br>
 @react-navigation/stack ---->> <a href='https://www.npmjs.com/package/@react-navigation/stack'>Link</a><br>
 React Native Reanimated ---->> <a href='https://docs.swmansion.com/react-native-reanimated/'>Link</a><br>
-Expo Buil & Publish App ---->> <a href='https://docs.expo.dev/distribution/app-stores/'>Link</a><br>
+Expo Build & Publish App ---->> <a href='https://docs.expo.dev/distribution/app-stores/'>Link</a><br>
 
 
 
