@@ -1,6 +1,6 @@
 
 <div align='center'>
-  <h1>React Native - Login / Signup UI</h1>
+  <h1>React Native - Login / Signup Form</h1>
   <img src='https://img.shields.io/badge/fmfahath-white?logo=github&logoColor=black'/>
    <img src='https://img.shields.io/badge/React_Native-gray?logo=react'/>
    <img src='https://img.shields.io/badge/Tailwind_css-gray?logo=tailwindcss'/>
